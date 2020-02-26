@@ -1,6 +1,6 @@
 {
-  "name": "bp-basickttt",
-  "version": "1.0.0",
+  "name": "@byted/bpbasickttt",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/facebook/jest.git",
@@ -14,5 +14,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "7073f56803a49a51fc7d775f64763fd96cdb2cdc"
 }

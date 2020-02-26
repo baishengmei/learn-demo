@@ -1,6 +1,6 @@
 {
-  "name": "bp-root121",
-  "version": "1.0.2",
+  "name": "@byted/bproot121",
+  "version": "1.0.3",
   "devDependencies": {
     "lerna": "^3.20.2"
   }
