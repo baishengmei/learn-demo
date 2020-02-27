@@ -1,17 +1,9 @@
-15 error Error: Command failed: git remote update
-15 error ssh_dispatch_run_fatal: Connection to 13.229.188.59 port 22: Operation timed out
-15 error fatal: Could not read from remote repository.
-15 error
-15 error Please make sure you have the correct access rights
-15 error and the repository exists.
-15 error error: Could not fetch origin
-15 error
-15 error Fetching origin
-15 error
-15 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:174:9)
-15 error     at Function.module.exports.sync (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:338:15)
-15 error     at Object.execSync (/usr/local/lib/node_modules/lerna/node_modules/@lerna/child-process/index.js:26:16)
-15 error     at updateRemote (/usr/local/lib/node_modules/lerna/node_modules/@lerna/version/lib/is-behind-upstream.js:26:16)
-15 error     at isBehindUpstream (/usr/local/lib/node_modules/lerna/node_modules/@lerna/version/lib/is-behind-upstream.js:11:3)
-15 error     at VersionCommand.initialize (/usr/local/lib/node_modules/lerna/node_modules/@lerna/version/index.js:150:9)
-15 error     at Promise.resolve.then (/usr/local/lib/node_modules/lerna/node_modules/@lerna/command/index.js:272:24)
+38 error Error: Command failed: git add -- packages/bp-basic-toolkits/package.json packages/bp-basic-toolkits/package-lock.json packages/bp-constant/package.json packages/bp-constant/package-lock.json lerna.json
+38 error The following paths are ignored by one of your .gitignore files:
+38 error packages/bp-basic-toolkits/package-lock.json
+38 error packages/bp-constant/package-lock.json
+38 error Use -f if you really want to add them.
+38 error
+38 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:174:9)
+38 error     at Promise.all.then.arr (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:278:16)
+38 error     at <anonymous>
