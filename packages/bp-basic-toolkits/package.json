@@ -15,5 +15,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "7073f56803a49a51fc7d775f64763fd96cdb2cdc"
+  "gitHead": "7073f56803a49a51fc7d775f64763fd96cdb2cdc",
+  "dependencies": {
+    "chalk": "^3.0.0"
+  }
 }
